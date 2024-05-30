@@ -32,8 +32,9 @@ This simple online chat application allows multiple users to connect to a centra
 - Users can type their messages and press Enter to send them to the server.
 - Messages from other users are displayed in the console.
 
-### Implementation of the ChatClient class in Java ### 
-
+## Error Handling
+- Handles errors during client-server communication.
+- Removes clients from the server list when they disconnect or encounter errors.
   
 ### Example from Screenshots of the Text-Based User Interface
 Here are example screenshots of the text-based user interface for both the server and the client.
